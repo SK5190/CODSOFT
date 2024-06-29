@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+#back{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(1, 0, 0); */
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(134, 123, 123, 0.672); */
+}
+#workingarea{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    /* background-color:black; */
+    /* border: 2px solid red; */
+}
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 0px;
+    /* background-color: yellow; */
+}
+#nav img{
+    height: 80px;
+}
+#nleft,#nright{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#nleft a,#nright a{
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 12px;
+font-weight: 600;
+letter-spacing: 1px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nright a{
+    margin: 0 30px 0 0;
+}
+#hero{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+   /* background-color: red;  */
+}
+#heroleft{
+    min-width: 50%;
+    /* background-color: yellow; */
+}
+#heroright{
+  width: 25%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    /* max-width: 25%; */
+    color: white;
+    /* background-color: rgb(0, 30, 255); */
+}
+#heroleft .elem h1{
+    line-height: .85;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    font-family: "kajiro";
+    color: rgb(207, 43, 43);
+    font-weight: 300;
+    font-size: 12vw;
+}
+#heroleft .elem{
+    position: relative;
+    overflow: hidden;
+    height: 9vw;
+    /* background-color: red; */
+}
+#heroleft .elem h1:nth-child(1){
+    top: 0%;
+}
+#heroleft button{
+    padding: 6px 100px;
+    font-size: 7vh;
+    font-weight: 200;
+    margin: 25px 30px;
+    font-family: "kajiro";
+}
+#heroright p{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: right;
+}
+#heroright #imagediv{
+    margin-top: 18px;
+    /* margin-right: 18px; */
+    background-color: red;
+    height: 30%;
+    width: 40vh;
+}
+#heroright #imagediv img{
+    height: 100%;
+    width: 100%;
+}

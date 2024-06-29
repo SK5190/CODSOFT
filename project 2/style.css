@@ -1,0 +1,132 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./KFOLCnqEu92FrlMmEU9FBBc);
+}
+@font-face {
+    font-family: a;
+    src: url(./json-variable.ttf);
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 9vh;
+    width: 100vw;
+    /* background-color: rgb(204, 255, 0); */
+}
+#page1>nav>img{
+    width: 5%;
+    
+}
+#right-nav>button{
+    padding: 10px 20px ;
+    border-radius: 50px;
+    background-color: #0b48ed;
+    border: 1px solid white;
+    color: white;
+}
+#bottom-page-1{
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    height: 35vh;
+    width: 50vw;
+    /* background-color: red; */
+}
+#bottom-page-1>h1{
+    font-family: a;
+ font-size: 5vw;
+ font-weight: 100;
+ line-height: 1;
+ color: white;
+}
+#bottom-page1-inner{
+    font-family: a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: a;
+    bottom: 0%;
+    /* background-color: red; */
+    /* padding: 0px 30px; */
+height: 35%;
+width: 70%;
+/* background-color: magenta; */
+}
+#bottom-page1-inner>button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: #0b48ed;
+    font-family: b;
+    font-size: 16px;
+}
+#bottom-page1-inner>h4{
+    font-size: 1.1vw;
+    font-weight: 100;
+    color: white;
+}
+#page2{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    font-family: a;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0vw 8vw;
+    color: white;
+}
+#page2>h2{
+    margin-bottom: 2vw;
+font-weight: 100;
+}
+#page2>h1{
+    width: 100%;
+    font-size: 4vw;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.111);
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+#page3>canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+}
